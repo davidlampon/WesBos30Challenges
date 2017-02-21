@@ -4,9 +4,17 @@
 
 This is a personal exercise taking the video tutorial series of [Wes Bos](https://javascript30.com/) about coding in pure plain JS. [Original exercises](https://github.com/davidlampon/JavaScript30) can be found in his own repo. The codepen exercises below are slightly different approaches to the original exercises done after seeing the videos in order to understand deeply the concepts shown in every one of them.
 
+## Table of contents
+1. [HTML Keyboard - WesBos Javascript30 #1](#html-keyboard)
+2. [Analog clock - WesBos Javascript30 #2](#analog-clock)
+3. [CSS Variables - WesBos Javascript30 #3](#css-variables)
+4. [Array Cardio 1 - WesBos Javascript30 #4](#array-cardio-1)
+5. [Flex Panels Image Gallery - WesBos Javascript30 #5](#flex-panels-image-gallery)
+6. [Type Ahead - WesBos Javascript30 #6](#type-ahead)
+
 ## Exercises
 
-### HTML Keyboard - WesBos Javascript30 #1
+### HTML Keyboard<a name="html-keyboard"></a>
 [Exercise](http://codepen.io/davidlampon/pen/LxRXzQ)
 
 * `transitionend` event listener
@@ -17,7 +25,7 @@ This is a personal exercise taking the video tutorial series of [Wes Bos](https:
 * nodelist loop instead of for of `querySelectorAll` we can use `keys.forEach(key => key.addEventListener('transitionend', removeTransition))`
 
 
-### Analog clock - WesBos Javascript30 #2
+### Analog clock<a name="analog-clock"></a>
 [Exercise](http://codepen.io/davidlampon/pen/apmYvJ)
 
 * `transform-origin: 0%`;
@@ -26,7 +34,7 @@ This is a personal exercise taking the video tutorial series of [Wes Bos](https:
 * ES6 templates, style object
 * `setInterval`
 
-### CSS Variables - WesBos Javascript30 #3
+### CSS Variables<a name="css-variables"></a>
 [Exercise](http://codepen.io/davidlampon/pen/XpjOEW)
 
 * css variables
@@ -34,7 +42,7 @@ This is a personal exercise taking the video tutorial series of [Wes Bos](https:
 * input >> range and color (min, max, value)
 * HTML default value can’t be taken form css?
 
-### Array Cardio 1 - WesBos Javascript30 #4
+### Array Cardio 1<a name="array-cardio-1"></a>
 [Exercise](http://codepen.io/davidlampon/pen/OWbzVL)
 
 * `filter` >> born year
@@ -48,14 +56,14 @@ This is a personal exercise taking the video tutorial series of [Wes Bos](https:
 * `string.includes()` >> string inside another string
 * deconstruct >> `const [last, name] = lastOne.split(‘, ‘);`
 
-### Flex Panels Image Gallery - WesBos Javascript30 #5
+### Flex Panels Image Gallery<a name="flex-panels-image-gallery"></a>
 [Exercise](http://codepen.io/davidlampon/pen/JEgJXw)
 
 * `forEach` in a node list to set event listeners
 * event listener for `transitionend`
 * flex box css panels
 
-### Type Ahead - WesBos Javascript30 #6
+### Type Ahead<a name="type-ahead"></a>
 [Exercise](https://codepen.io/davidlampon/pen/oBKoeK)
 
 * `fetch` API and promises
