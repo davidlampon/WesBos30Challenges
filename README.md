@@ -54,3 +54,14 @@ This is a personal exercise taking the video tutorial series of [Wes Bos](https:
 * `forEach` in a node list to set event listeners
 * event listener for `transitionend`
 * flex box css panels
+
+### Type Ahead - WesBos Javascript30 #6
+[Exercise](https://codepen.io/davidlampon/pen/oBKoeK)
+
+* `fetch` API and promises
+* array decomposition with `...` and pushing into a const empty array
+* `const regex = RegExp(wordToMatch, 'gi')` and `element.match(regex)`
+* `change`and `keyup` triggers in the same input (two eventListeners)
+* `Array.filter` to get specific results
+* `Array.map` to return an array of html elements and `.join()` to conver tit to string
+* `new RegExp(value, 'gi')` and ``element.replace(regex, `<span class="hl">${value}</span>`)`` for a highlighted inline element;
